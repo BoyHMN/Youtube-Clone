@@ -1,0 +1,85 @@
+.thumb-1{
+    width: 100%;
+}
+.video-title{
+    margin-top: 0;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 20px;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.profile-pic{
+    width: 36px;
+    border-radius: 50%;
+
+}
+.thumb-row{
+    margin-bottom: 8px;
+    position: relative;
+}
+.video-author,
+.video-stats{
+    font-size: 12px;
+    color: #4C4C4D;
+}
+.video-author{
+    margin-bottom: 4px;
+}
+.video-info-grid{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+
+}
+.video-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 40px;
+}
+@media (max-width: 750px) {
+    .video-grid{
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
+@media(min-width: 751px) and (max-width: 999px){
+    .video-grid{
+        grid-template-columns: 1fr 1fr 1fr;
+    } 
+}
+@media(min-width:1000px){
+    .video-grid{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+.vid-time{
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    right: 8px;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 4px;
+    border-radius: 3px;
+
+}
+.channel:visited{
+    text-decoration: none;
+    color: #4C4C4D;
+}
+.title:visited{
+    text-decoration: none;
+    color: black;
+}
+.channel{
+    text-decoration: none;
+    color: #4C4C4D;
+}
+.title{
+    text-decoration: none;
+    color: black;
+}
