@@ -2,6 +2,7 @@ p{
     
     margin-top: 0;
     margin-bottom: 0;
+    
 }
 body{
     font-family: roboto, arial;
@@ -9,7 +10,7 @@ body{
     padding-top: 80px;
     padding-left: 96px;
     padding-right: 24px;
-    background-color: rgb(250, 250, 250);
+    background-color: var(--primary-color);
 }
 a{
     text-decoration: none;

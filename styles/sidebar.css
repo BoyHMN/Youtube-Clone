@@ -3,7 +3,7 @@
     left: 0px;
     bottom: 0;
     top: 55px;
-    background-color: white;
+    background-color: var(--primary-color);
     width: 72px;
     z-index: 200;
     padding-top: 5px;
@@ -17,7 +17,7 @@
     cursor: pointer;
 }
 .sidebar-link:hover{
-    background-color: rgb(235, 235, 235);
+    background-color: var(--third-color);
 }
 .sidebar-link img{
     height: 24px;
@@ -26,4 +26,5 @@
 .sidebar-link div{
     font-family: Roboto,arial;
     font-size: 10px;
+    color: var(--secondary-color);
 }

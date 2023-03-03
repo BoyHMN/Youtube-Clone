@@ -6,16 +6,18 @@
         <link rel="stylesheet" href="styles/general.css">
         <link rel="stylesheet" href="styles/header.css">
         <link rel="stylesheet" href="styles/sidebar.css">
+        <link rel="stylesheet" href="styles/dark-light.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     </head>
-    <body>
+    <body >
         <!--HEADER USING FLEXBOX-->
-        <header class="header">
+        <header id="HeadId" class="header">
             <div class="left-section">
                 <img class="ham-menu" src="logos/hamburger-menu.svg">
-                <img class="youtube-logo" src="logos/youtube-logo.svg">
+                <img class="youtubelogo" src="logos/youtube-logo.svg">
+                <img class="youtubelogo1" src="logos/youtube logo.png">
 
             </div>
             <div class="middle-section">
@@ -31,6 +33,10 @@
                 </button>
             </div>
             <div class="right-section">
+                <div class="light-blackmode">
+                    <button id="btn" >switch mode</button>
+
+                </div>
                 <div class="upload-icon-container">
                     <img class="upload-icon" src="logos/upload.svg">
                     <div class="tooltip">Create</div>
@@ -311,5 +317,6 @@
                 </div>
             </section>
         </main> 
+        <script src="script.js"></script>
     </body>
 </html>

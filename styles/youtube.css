@@ -73,7 +73,7 @@
 }
 .title:visited{
     text-decoration: none;
-    color: black;
+    color: var(--secondary-color);
 }
 .channel{
     text-decoration: none;
@@ -81,5 +81,5 @@
 }
 .title{
     text-decoration: none;
-    color: black;
+    color: var(--secondary-color);
 }
