@@ -22,7 +22,7 @@
 .video-author,
 .video-stats{
     font-size: 12px;
-    color: #4C4C4D;
+    color: var(--fourth-color);
 }
 .video-author{
     margin-bottom: 4px;

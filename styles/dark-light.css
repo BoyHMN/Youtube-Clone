@@ -1,11 +1,13 @@
 :root{
     --primary-color: rgb(255, 255, 255);
-    --secondary-color: rgb(30, 28, 28);
+    --secondary-color: rgb(15, 15, 15);
     --third-color: rgb(228, 228, 228);
+    --fourth-color:#4C4C4D;
 }
 .dark {
-    --primary-color: rgb(30, 28, 28);
+    --primary-color: rgb(15, 15, 15);
     --secondary-color: rgb(255, 255, 255);
     --third-color: rgb(77, 74, 74);
+    --fourth-color:rgb(170, 170, 170);
    }
 
