@@ -1,10 +1,15 @@
 const toggle = document.getElementById('btn');
 const youtubelogo = document.querySelector('.youtubelogo');
 const youtubelogo1 = document.querySelector('.youtubelogo1');
- toggle.onclick=function(){
+ let theme ='light';
+toggle.onclick=function(){
+    if (theme === 'light')
+     theme = 'dark';
+     else
+     theme = 'light';
     let element=document.body;
     element.classList.toggle("dark");
-    if (youtubelogo.style.display==='none') {
+    if (theme==='light') {
         youtubelogo.style.display = 'block';
         youtubelogo1.style.display = 'none';
     }else{
