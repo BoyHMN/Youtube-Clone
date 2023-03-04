@@ -1,6 +1,6 @@
 const toggle = document.getElementById('btn');
-const youtubelogo = document.querySelector('.youtubelogo');
-const youtubelogo1 = document.querySelector('.youtubelogo1');
+const youtubeLogo = document.querySelector('.youtubelogo');
+const youtubeLogo1 = document.querySelector('.youtubelogo1');
  let theme ='light';
 toggle.onclick=function(){
     if (theme === 'light')
@@ -10,11 +10,11 @@ toggle.onclick=function(){
     let element=document.body;
     element.classList.toggle("dark");
     if (theme==='light') {
-        youtubelogo.style.display = 'block';
-        youtubelogo1.style.display = 'none';
+        youtubeLogo.style.display = 'block';
+        youtubeLogo1.style.display = 'none';
     }else{
-        youtubelogo1.style.display = 'block';
-        youtubelogo.style.display = 'none';
+        youtubeLogo1.style.display = 'block';
+        youtubeLogo.style.display = 'none';
     }
  }
 
